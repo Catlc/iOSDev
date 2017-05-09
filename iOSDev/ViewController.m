@@ -17,6 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    self.title = @"首页";  title 会设置下边的tabBarItem的title
+    
+    self.navigationItem.title = @"首页";
+    
+    self.navigationController.navigationBar.tintColor = [UIColor orangeColor];
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"m_nav"] forBarMetrics:UIBarMetricsDefault];
+    
+//    self.navigationController.toolbarHidden = NO;
+
 }
 
 
