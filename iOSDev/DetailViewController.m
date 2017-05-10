@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "ModuleViewController.h"
 
 @interface DetailViewController ()
 
@@ -35,7 +36,7 @@
     
     //添加多个按钮
     UIBarButtonItem* item1 = [[UIBarButtonItem alloc]initWithTitle:@"item1" style:UIBarButtonItemStylePlain target:nil action:nil];
-    UIBarButtonItem* item2 = [[UIBarButtonItem alloc]initWithTitle:@"item2" style:UIBarButtonItemStylePlain target:nil action:nil];
+    UIBarButtonItem* item2 = [[UIBarButtonItem alloc]initWithTitle:@"item2" style:UIBarButtonItemStylePlain target:self action:@selector(push)];
     NSArray* array = @[item1,item2];
     
 //    self.navigationItem.leftBarButtonItems = array;
@@ -79,6 +80,13 @@
     //导航栏toolBar隐藏开关
 //    self.navigationController.toolbarHidden = NO;
 }
+
+-(void)push{
+    ModuleViewController *module = [ModuleViewController new];
+    [self.navigationController pushViewController:module animated:YES];
+}
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

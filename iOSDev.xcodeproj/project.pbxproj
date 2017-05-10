@@ -17,6 +17,7 @@
 		5A3949F21EC15946007328D6 /* iOSDevTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3949F11EC15946007328D6 /* iOSDevTests.m */; };
 		5A3949FD1EC15946007328D6 /* iOSDevUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3949FC1EC15946007328D6 /* iOSDevUITests.m */; };
 		5A394A0C1EC16BB3007328D6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A394A0B1EC16BB3007328D6 /* DetailViewController.m */; };
+		5A4C80091EC2A8A500A27200 /* ModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C80081EC2A8A500A27200 /* ModuleViewController.m */; };
 		A7E0DEF0A4F4FB29A12BEC58 /* libPods-iOSDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B092A1F43E5E23107C0C30 /* libPods-iOSDev.a */; };
 		D044F69B1DC628A009F43F6B /* libPods-iOSDevUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F7BF7EFB18C7DFBCCF5BA3 /* libPods-iOSDevUITests.a */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,8 @@
 		5A3949FE1EC15946007328D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A394A0A1EC16BB3007328D6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5A394A0B1EC16BB3007328D6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5A4C80071EC2A8A500A27200 /* ModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleViewController.h; sourceTree = "<group>"; };
+		5A4C80081EC2A8A500A27200 /* ModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleViewController.m; sourceTree = "<group>"; };
 		A6C56374C18F6FC66D450E86 /* Pods-iOSDevTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevTests/Pods-iOSDevTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACC1075A025480B1DF35A657 /* Pods-iOSDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDev/Pods-iOSDev.release.xcconfig"; sourceTree = "<group>"; };
 		C60390A9A8189DF5C4F0B312 /* Pods-iOSDevUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevUITests/Pods-iOSDevUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +145,8 @@
 				5A3949D71EC15946007328D6 /* Supporting Files */,
 				5A394A0A1EC16BB3007328D6 /* DetailViewController.h */,
 				5A394A0B1EC16BB3007328D6 /* DetailViewController.m */,
+				5A4C80071EC2A8A500A27200 /* ModuleViewController.h */,
+				5A4C80081EC2A8A500A27200 /* ModuleViewController.m */,
 			);
 			path = iOSDev;
 			sourceTree = "<group>";
@@ -466,6 +471,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A3949DF1EC15946007328D6 /* ViewController.m in Sources */,
+				5A4C80091EC2A8A500A27200 /* ModuleViewController.m in Sources */,
 				5A3949DC1EC15946007328D6 /* AppDelegate.m in Sources */,
 				5A3949D91EC15946007328D6 /* main.m in Sources */,
 				5A394A0C1EC16BB3007328D6 /* DetailViewController.m in Sources */,

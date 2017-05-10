@@ -12,7 +12,6 @@
         <!--Navigation Controller-->
         <scene sceneID="FaC-DI-4Id">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tGQ-w6-bhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="0n8-Y1-jFn" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xBH-80-fnq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -22,6 +21,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Ajv-ga-K7j"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tGQ-w6-bhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1369" y="102"/>
         </scene>
@@ -36,7 +36,20 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="m_nav64" translatesAutoresizingMaskIntoConstraints="NO" id="wr6-kb-IfM" customClass="m_nav64">
+                                <rect key="frame" x="0.0" y="64" width="375" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="hT6-vM-Te9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wr6-kb-IfM" secondAttribute="trailing" id="8mt-Kc-fqS"/>
+                            <constraint firstItem="wr6-kb-IfM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gv2-fq-HGP"/>
+                            <constraint firstItem="wr6-kb-IfM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="tqi-rX-SZT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="首页" id="Gfn-zi-cab">
                         <barButtonItem key="rightBarButtonItem" systemItem="camera" id="cUD-UA-Wnv">
@@ -48,7 +61,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-538" y="101"/>
+            <point key="canvasLocation" x="-538.39999999999998" y="100.29985007496252"/>
         </scene>
         <!--二级-->
         <scene sceneID="SFY-o1-tQ0">
@@ -72,4 +85,7 @@
             <point key="canvasLocation" x="246" y="100"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="m_nav64" width="1280" height="114"/>
+    </resources>
 </document>
