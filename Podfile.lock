@@ -14,16 +14,22 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - CYLTabBarController (1.10.0)
   - Masonry (1.0.2)
+  - ViewDeck (3.1.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - CYLTabBarController
   - Masonry
+  - ViewDeck
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CYLTabBarController: 2de9a4c26f50d33574398becf8e7b0aaed794240
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  ViewDeck: 942d90dd23c9f97cc8038be352255378167edcca
 
-PODFILE CHECKSUM: 17171d9d287270703ef8db3455a322a7f7ebec0c
+PODFILE CHECKSUM: 464983e304de1a773a7a8e6ac3b7a9cce4da5ae7
 
 COCOAPODS: 1.2.0

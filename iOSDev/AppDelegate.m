@@ -7,8 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "IIViewDeckController.h"
+#import "ModuleViewController.h"
+#import "TabBarControllerConfig.h"
+#import "SideViewController.h"
 
-@interface AppDelegate ()
+
+
+@interface AppDelegate ()<UITabBarDelegate>
+
+
+@property(nonatomic,strong)  CYLTabBarController *tabBarController;
+@property (nonatomic,strong) IIViewDeckController *viewDeckController;
+
 
 @end
 
@@ -17,12 +28,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+     self.window.backgroundColor = [UIColor whiteColor];
     
     [UINavigationBar appearance].tintColor = [UIColor orangeColor];
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"m_nav64"] forBarMetrics:UIBarMetricsDefault];
+ 
+    TabBarControllerConfig *tabBarControllerConfig = [[TabBarControllerConfig alloc] init];
+    SideViewController *sideVc  = [[SideViewController alloc]initWithStyle:UITableViewStyleGrouped];
+    UINavigationController *sideNavigationController = [[UINavigationController alloc] initWithRootViewController:sideVc];
+    
+    IIViewDeckController *viewDeckController = [[IIViewDeckController alloc] initWithCenterViewController:tabBarControllerConfig.tabBarController leftViewController:sideNavigationController];
+    
+    self.viewDeckController = viewDeckController;
+    [self.window setRootViewController:self.viewDeckController];
+    
+    NSLog(@"测试2017-5-31");
+
+    
     
     return YES;
 }
+
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

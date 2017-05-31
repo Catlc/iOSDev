@@ -8,6 +8,9 @@ target 'iOSDev' do
   # Pods for iOSDev
   pod 'Masonry'
   pod 'AFNetworking'
+  pod 'CYLTabBarController'
+  pod 'ViewDeck'
+  
   target 'iOSDevTests' do
     inherit! :search_paths
     # Pods for testing

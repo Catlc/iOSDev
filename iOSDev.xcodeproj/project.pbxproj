@@ -18,6 +18,13 @@
 		5A3949FD1EC15946007328D6 /* iOSDevUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3949FC1EC15946007328D6 /* iOSDevUITests.m */; };
 		5A394A0C1EC16BB3007328D6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A394A0B1EC16BB3007328D6 /* DetailViewController.m */; };
 		5A4C80091EC2A8A500A27200 /* ModuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C80081EC2A8A500A27200 /* ModuleViewController.m */; };
+		5A4C80121EC3FB2900A27200 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C80111EC3FB2900A27200 /* BaseViewController.m */; };
+		5A4C80151EC3FB4900A27200 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C80141EC3FB4900A27200 /* HomeViewController.m */; };
+		5A4C80181EC3FB5600A27200 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C80171EC3FB5600A27200 /* MessageViewController.m */; };
+		5A4C801B1EC3FB6000A27200 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C801A1EC3FB6000A27200 /* MineViewController.m */; };
+		5A4C801E1EC3FB6E00A27200 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C801D1EC3FB6E00A27200 /* OtherViewController.m */; };
+		5A4C80211EC446D200A27200 /* TabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C80201EC446D200A27200 /* TabBarControllerConfig.m */; };
+		5A4C80241EC44EEB00A27200 /* SideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A4C80231EC44EEB00A27200 /* SideViewController.m */; };
 		A7E0DEF0A4F4FB29A12BEC58 /* libPods-iOSDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B092A1F43E5E23107C0C30 /* libPods-iOSDev.a */; };
 		D044F69B1DC628A009F43F6B /* libPods-iOSDevUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F7BF7EFB18C7DFBCCF5BA3 /* libPods-iOSDevUITests.a */; };
 /* End PBXBuildFile section */
@@ -65,6 +72,20 @@
 		5A394A0B1EC16BB3007328D6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		5A4C80071EC2A8A500A27200 /* ModuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleViewController.h; sourceTree = "<group>"; };
 		5A4C80081EC2A8A500A27200 /* ModuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleViewController.m; sourceTree = "<group>"; };
+		5A4C80101EC3FB2900A27200 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5A4C80111EC3FB2900A27200 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5A4C80131EC3FB4900A27200 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = iOSDev/ViewControllers/HomeViewController.h; sourceTree = SOURCE_ROOT; };
+		5A4C80141EC3FB4900A27200 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = iOSDev/ViewControllers/HomeViewController.m; sourceTree = SOURCE_ROOT; };
+		5A4C80161EC3FB5600A27200 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		5A4C80171EC3FB5600A27200 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		5A4C80191EC3FB6000A27200 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		5A4C801A1EC3FB6000A27200 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		5A4C801C1EC3FB6E00A27200 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		5A4C801D1EC3FB6E00A27200 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		5A4C801F1EC446D200A27200 /* TabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarControllerConfig.h; sourceTree = "<group>"; };
+		5A4C80201EC446D200A27200 /* TabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerConfig.m; sourceTree = "<group>"; };
+		5A4C80221EC44EEB00A27200 /* SideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideViewController.h; sourceTree = "<group>"; };
+		5A4C80231EC44EEB00A27200 /* SideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideViewController.m; sourceTree = "<group>"; };
 		A6C56374C18F6FC66D450E86 /* Pods-iOSDevTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevTests/Pods-iOSDevTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ACC1075A025480B1DF35A657 /* Pods-iOSDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDev.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDev/Pods-iOSDev.release.xcconfig"; sourceTree = "<group>"; };
 		C60390A9A8189DF5C4F0B312 /* Pods-iOSDevUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDevUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDevUITests/Pods-iOSDevUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,10 +155,13 @@
 		5A3949D61EC15946007328D6 /* iOSDev */ = {
 			isa = PBXGroup;
 			children = (
+				5A4C800A1EC3FB1300A27200 /* ViewControllers */,
 				5A3949DA1EC15946007328D6 /* AppDelegate.h */,
 				5A3949DB1EC15946007328D6 /* AppDelegate.m */,
 				5A3949DD1EC15946007328D6 /* ViewController.h */,
 				5A3949DE1EC15946007328D6 /* ViewController.m */,
+				5A4C801F1EC446D200A27200 /* TabBarControllerConfig.h */,
+				5A4C80201EC446D200A27200 /* TabBarControllerConfig.m */,
 				5A3949E01EC15946007328D6 /* Main.storyboard */,
 				5A3949E31EC15946007328D6 /* Assets.xcassets */,
 				5A3949E51EC15946007328D6 /* LaunchScreen.storyboard */,
@@ -147,6 +171,8 @@
 				5A394A0B1EC16BB3007328D6 /* DetailViewController.m */,
 				5A4C80071EC2A8A500A27200 /* ModuleViewController.h */,
 				5A4C80081EC2A8A500A27200 /* ModuleViewController.m */,
+				5A4C80221EC44EEB00A27200 /* SideViewController.h */,
+				5A4C80231EC44EEB00A27200 /* SideViewController.m */,
 			);
 			path = iOSDev;
 			sourceTree = "<group>";
@@ -175,6 +201,63 @@
 				5A3949FE1EC15946007328D6 /* Info.plist */,
 			);
 			path = iOSDevUITests;
+			sourceTree = "<group>";
+		};
+		5A4C800A1EC3FB1300A27200 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C800B1EC3FB1300A27200 /* Base */,
+				5A4C800C1EC3FB1300A27200 /* Home */,
+				5A4C800D1EC3FB1300A27200 /* Message */,
+				5A4C800E1EC3FB1300A27200 /* Mine */,
+				5A4C800F1EC3FB1300A27200 /* Other */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5A4C800B1EC3FB1300A27200 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C80101EC3FB2900A27200 /* BaseViewController.h */,
+				5A4C80111EC3FB2900A27200 /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5A4C800C1EC3FB1300A27200 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C80131EC3FB4900A27200 /* HomeViewController.h */,
+				5A4C80141EC3FB4900A27200 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5A4C800D1EC3FB1300A27200 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C80161EC3FB5600A27200 /* MessageViewController.h */,
+				5A4C80171EC3FB5600A27200 /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		5A4C800E1EC3FB1300A27200 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C80191EC3FB6000A27200 /* MineViewController.h */,
+				5A4C801A1EC3FB6000A27200 /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		5A4C800F1EC3FB1300A27200 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				5A4C801C1EC3FB6E00A27200 /* OtherViewController.h */,
+				5A4C801D1EC3FB6E00A27200 /* OtherViewController.m */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		C65590B1F409304E7C76C101 /* Pods */ = {
@@ -471,10 +554,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A3949DF1EC15946007328D6 /* ViewController.m in Sources */,
+				5A4C80211EC446D200A27200 /* TabBarControllerConfig.m in Sources */,
+				5A4C801E1EC3FB6E00A27200 /* OtherViewController.m in Sources */,
+				5A4C80121EC3FB2900A27200 /* BaseViewController.m in Sources */,
 				5A4C80091EC2A8A500A27200 /* ModuleViewController.m in Sources */,
+				5A4C801B1EC3FB6000A27200 /* MineViewController.m in Sources */,
 				5A3949DC1EC15946007328D6 /* AppDelegate.m in Sources */,
 				5A3949D91EC15946007328D6 /* main.m in Sources */,
+				5A4C80151EC3FB4900A27200 /* HomeViewController.m in Sources */,
+				5A4C80181EC3FB5600A27200 /* MessageViewController.m in Sources */,
 				5A394A0C1EC16BB3007328D6 /* DetailViewController.m in Sources */,
+				5A4C80241EC44EEB00A27200 /* SideViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
