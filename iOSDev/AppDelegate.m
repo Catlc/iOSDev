@@ -43,6 +43,8 @@
     [self.window setRootViewController:self.viewDeckController];
     
     NSLog(@"测试2017-5-31");
+    NSLog(@"MacBook Air licheng 2017-6-1");
+    NSLog(@"测试2017-6-1");
 
     
     
