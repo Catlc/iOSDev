@@ -30,7 +30,7 @@
     
     //设置移除黑线
 //    self.navigationController.navigationBar.clipsToBounds = YES;
-        [self useMethodToFindBlackLineAndHind];
+    [self useMethodToFindBlackLineAndHind];
     
     
     //    self.navigationController.toolbarHidden = NO;
